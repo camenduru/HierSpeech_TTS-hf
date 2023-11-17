@@ -39,3 +39,4 @@ ttv_v1/monotonic_align/build/temp.linux-x86_64-3.8/core.o filter=lfs diff=lfs me
 ttv_v1/monotonic_align/build/temp.linux-x86_64-3.9/core.o filter=lfs diff=lfs merge=lfs -text
 ttv_v1/monotonic_align/monotonic_align/core.cpython-38-x86_64-linux-gnu.so filter=lfs diff=lfs merge=lfs -text
 ttv_v1/monotonic_align/monotonic_align/core.cpython-39-x86_64-linux-gnu.so filter=lfs diff=lfs merge=lfs -text
+example/female.wav filter=lfs diff=lfs merge=lfs -text
