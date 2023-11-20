@@ -144,7 +144,7 @@ def main():
     parser.add_argument('--input_prompt', default='example/steve-jobs-2005.wav')
     parser.add_argument('--input_txt', default='example/abstract.txt')
     parser.add_argument('--output_dir', default='output')
-    parser.add_argument('--ckpt', default='./logs/hierspeechpp_eng_kor/hierspeechpp_v2_ckpt.pth')
+    parser.add_argument('--ckpt', default='./logs/hierspeechpp_eng_kor/hierspeechpp_v1.1_ckpt.pth')
     parser.add_argument('--ckpt_text2w2v', '-ct', help='text2w2v checkpoint path', default='./logs/ttv_libritts_v1/ttv_lt960_ckpt.pth')
     parser.add_argument('--ckpt_sr', type=str, default='./speechsr24k/G_340000.pth')  
     parser.add_argument('--ckpt_sr48', type=str, default='./speechsr48k/G_100000.pth')  
