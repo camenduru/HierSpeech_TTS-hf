@@ -1,5 +1,5 @@
 ---
-title: Test
+title: HierSpeech++
 emoji: ⚡
 colorFrom: gray
 colorTo: blue
