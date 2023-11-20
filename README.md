@@ -1,5 +1,5 @@
 ---
-title: HierSpeech++
+title: HierSpeech++ (Zero-shot TTS)
 emoji: ⚡
 colorFrom: gray
 colorTo: blue
