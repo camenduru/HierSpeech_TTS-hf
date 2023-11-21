@@ -226,6 +226,7 @@ def main():
                         </div>''',                      
                      examples=[["HierSpeech is a zero shot speech synthesis model, which can generate high-quality audio", "./example/3_rick_gt.wav", 0.333,0.333, 1.0, 1.0, 0, 1111],
                                 ["HierSpeech is a zero shot speech synthesis model, which can generate high-quality audio", "./example/ex01_whisper_00359.wav", 0.333,0.333, 1.0, 1.0, 0, 1111],
+                                 ["Wha! It's too cold today", "./example/openai_tts_sample.mp3", 0.333,0.333, 1.0, 1.0, 0, 1111],
                                ["Hi there, I'm your new voice clone. Try your best to upload quality audio", "./example/female.wav", 0.333,0.333, 1.0, 1.0, 0, 1111],
                                ["Hello I'm HierSpeech++", "./example/reference_1.wav", 0.333,0.333, 1.0, 1.0, 0, 1111],
                                ]
