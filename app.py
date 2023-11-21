@@ -223,10 +223,11 @@ def main():
                             <p style="text-align: left"> HierSpeech++ is a zero-shot speech synthesis model.</p>
                             <p style="text-align: left"> Our model is trained with LibriTTS dataset so this model only supports english. We will release a multi-lingual HierSpeech++ soon.</p>
                             <p style="text-align: left"> <a href="https://sh-lee-prml.github.io/HierSpeechpp-demo/">[Demo Page]</a> <a href="https://github.com/sh-lee-prml/HierSpeechpp">[Source Code]</a></p>
+                            <p style="text-align: left"> HuggingFace provides us with a community GPU grant. Thanks 😊 </p>
                         </div>''',                      
                      examples=[["HierSpeech is a zero shot speech synthesis model, which can generate high-quality audio", "./example/3_rick_gt.wav", 0.333,0.333, 1.0, 1.0, 0, 1111],
                                 ["HierSpeech is a zero shot speech synthesis model, which can generate high-quality audio", "./example/ex01_whisper_00359.wav", 0.333,0.333, 1.0, 1.0, 0, 1111],
-                                 ["Wha! It's too cold today", "./example/openai_tts_sample.mp3", 0.333,0.333, 1.0, 1.0, 0, 1111],
+                                 ["하앜! It's too cold today", "./example/openai_tts_sample.mp3", 0.333,0.333, 1.0, 1.0, 0, 1111],
                                ["Hi there, I'm your new voice clone. Try your best to upload quality audio", "./example/female.wav", 0.333,0.333, 1.0, 1.0, 0, 1111],
                                ["Hello I'm HierSpeech++", "./example/reference_1.wav", 0.333,0.333, 1.0, 1.0, 0, 1111],
                                ]
