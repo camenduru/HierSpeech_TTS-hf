@@ -75,7 +75,8 @@ def tts(text,
         audio, sample_rate = torchaudio.load(prompt)
 
         # support only single channel
-
+        if audio.shape[0] != 1:
+            audio = audio[:1,:] 
         # Resampling
         if sample_rate != 16000:
             audio = torchaudio.functional.resample(audio, sample_rate, 16000, resampling_method="kaiser_window") 
