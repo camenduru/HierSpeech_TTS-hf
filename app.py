@@ -227,6 +227,7 @@ def main():
                             <p style="text-align: left"> HuggingFace provides us with a community GPU grant. Thanks 😊 </p>
                         </div>''',                      
                      examples=[["HierSpeech is a zero shot speech synthesis model, which can generate high-quality audio", "./example/3_rick_gt.wav", 0.333,0.333, 1.0, 1.0, 0, 1111],
+                               ["HierSpeech is a zero shot speech synthesis model, which can generate high-quality audio", "./example/dog.wav", 0.333,0.667, 1.0, 1.0, 0, 1790],
                                 ["HierSpeech is a zero shot speech synthesis model, which can generate high-quality audio", "./example/ex01_whisper_00359.wav", 0.333,0.333, 1.0, 1.0, 0, 1111],
                                  ["하앜! It's too cold today", "./example/openai_tts_sample.mp3", 0.333,0.333, 1.0, 1.0, 0, 1111],
                                ["Hi there, I'm your new voice clone. Try your best to upload quality audio", "./example/female.wav", 0.333,0.333, 1.0, 1.0, 0, 1111],
