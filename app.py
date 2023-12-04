@@ -234,7 +234,7 @@ def main():
                                ["Hello I'm HierSpeech++", "./example/reference_1.wav", 0.333,0.333, 1.0, 1.0, 0, 1111],
                                ]
                     )
-    demo_play.launch()
+    demo_play.launch(share=True)
 
 if __name__ == '__main__':
     main()
