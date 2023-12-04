@@ -224,7 +224,6 @@ def main():
                             <p style="text-align: left"> HierSpeech++ is a zero-shot speech synthesis model.</p>
                             <p style="text-align: left"> Our model is trained with LibriTTS dataset so this model only supports english. We will release a multi-lingual HierSpeech++ soon.</p>
                             <p style="text-align: left"> <a href="https://sh-lee-prml.github.io/HierSpeechpp-demo/">[Demo Page]</a> <a href="https://github.com/sh-lee-prml/HierSpeechpp">[Source Code]</a></p>
-                            <p style="text-align: left"> HuggingFace provides us with a community GPU grant. Thanks 😊 </p>
                         </div>''',                      
                      examples=[["HierSpeech is a zero shot speech synthesis model, which can generate high-quality audio", "./example/3_rick_gt.wav", 0.333,0.333, 1.0, 1.0, 0, 1111],
                                ["HierSpeech is a zero shot speech synthesis model, which can generate high-quality audio", "./example/dog.wav", 0.333,0.667, 1.0, 1.0, 0, 1790],
